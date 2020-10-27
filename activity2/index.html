@@ -15,16 +15,75 @@
     </style>
     <!-- Your styles here -->
     <style>
+      
+       #first_block{
+       width: 50x;
+       height: 100px;
+       position: absolute;
+       top: 20px;
+       right: 20px;
+       background-color:red;
+       overflow: hidden
+      
+       }
+        #second_block{
+        height: 100px;
+        width: 50x;
+        background-color: blue;
+        top: 100px;
+        left: 20px;
+        overflow: scroll;
+        position: fixed;
+       
+        
+       }
+       /*nose que pide para el container*/
+        #container{
+        width: 50%;
+        left: 0px;
+        clear: left;
+      
+       }
+
+       .third_block{
+        position: fixed;
+        background-color: grey;  
+        width: 300px;
+        height: 100px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+
+       
+       }
+      /*las clase van con punto*/
+        .fourth_block{
+        width: 50%;
+        background-color:pink;
+        /*nose que posicion pide el ejercio*/
+        position: absolute;
+        top: 300px;
+ 
+  
+}
+      
+       
+
     </style>
   </head>
   <body>
     <h1>Activity 2: CSS positioning</h1>
     <p>Style the following blocks following the instructions inside</p>
-    <div id="first_block"><ul><li>Size: 100x50px</li><li>background: red</li><li>Position: top right, fixed to the document</li><li>Hide any content that overflows div dimensions</li></ul></div>
-    <div id="second_block"><ul><li>Size: 100x50px</li><li>Background: blue</li><li>Position: top left, fixed to the window</li><li>Show scroll bars when content overflows div dimensions</li></ul></div>
-    <div id="container">
-      I'm containing some blocks
-      <div class="third_block"><ul><li>width 50%</li><li>background: grey</li><li>Position: on the bottom left corner on the container (container) div</li></ul></div>
+    <div id="first_block"><ul><li>Size: 100x50px</li><li>background: red</li><li>Position: top right,
+     fixed to the document</li><li>Hide any content that overflows div dimensions</li></ul></div>
+     
+    <div id="second_block"><ul><li>Size: 100x50px</li><li>Background: blue</li><li>Position: top left, 
+    fixed to the window</li><li>Show scroll bars when content overflows div dimensions</li></ul></div>
+    <div id="container">I'm containing some blocks
+
+      <div class="third_block"><ul><li>width 50%</li><li>background: grey</li><li>
+        Position: on the bottom left corner on the container (container) div</li></ul></div>
+
       <div class="fourth_block"><ul><li>width 50%</li><li>background: pink</li></ul></div>
     </div>
   </body>

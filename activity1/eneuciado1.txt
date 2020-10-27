@@ -1,0 +1,30 @@
+Actividad 1: Estilo CSS
+Estilo de los siguientes bloques siguiendo las instrucciones en el interior
+
+Ancho completo
+Borde 1px negro
+Separación con el siguiente bloque 10px
+ancho 50%
+Fondo rojo
+Texto en negrita
+Separación con el siguiente bloque 1em
+ancho 50% del tamaño de página
+Color de texto azul
+Separación con el contenido dentro de 1rem
+
+
+
+esto es algo aparte 
+ <link rel="stylesheet" href="estilo1.css">
+<div class="content-box">
+    Ancho completo
+    Borde 1px negro
+    Separación con el siguiente bloque 10px
+</div>
+<br>
+<div class="segunda-division">
+    ancho 50%
+    Fondo rojo
+    Texto en negrita
+    Separación con el siguiente bloque 1em
+</div>
