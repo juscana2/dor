@@ -48,10 +48,13 @@ html {
     <!-- 1st activity en chrome no se me hace el cambio en firefox si-->
 
          
-    <img srcset="
-    cantera2.jpg 500w,
+    <img srcset="cantera2.jpg 320w,
+    cante.jpg 480w,
     canteras.jpg 800w"
-    src="canteras.jpg" alt="Elva dressed as a fairy">
+    sizes="(max-width: 440px) 440px,
+           (max-width: 480px) 440px,
+           800px"
+    src="canteras.jpg">
 
 
      <p>2. Using &lt;picture&gt; stuff make a responsive image that changes depending on the size of the page, up to 3 images.:</p>
