@@ -1,70 +1,72 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Activity 9: Responsive images</title>
-    <style>
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-html {
-        font-family: sans-serif;
-        background-color: gray;
-      }
+  <title>Activity 9: Responsive images</title>
+  <style>
+    html {
+      font-family: sans-serif;
+      background-color: gray;
+    }
 
-      body {
-        max-width: 1200px;
-        margin: 0 auto;
-        background-color: white;
-      }
+    body {
+      max-width: 1200px;
+      margin: 0 auto;
+      background-color: white;
+    }
 
-      header {
-        background: url(header.jpg) no-repeat center;
-        height: 200px;
-      }
+    header {
+      background: url(header.jpg) no-repeat center;
+      height: 200px;
+    }
 
-      section {
-        padding: 20px;
-      }
+    section {
+      padding: 20px;
+    }
 
-      p {
-        line-height: 1.5;
-      }
+    p {
+      line-height: 1.5;
+    }
 
-      img {
-        display: block;
-        margin: 0 auto;
-        max-width: 100%;
-       
-      }
+    img {
+      display: block;
+      margin: 0 auto;
+      max-width: 100%;
 
-  
-    </style>
-  </head>
-  <body>
-    <h1>Activity 9: Responsive images</h1>
-    <p>1. Using &lt;img srcset...&gt; make a responsive image that changes depending on the size of the page, up to 3 images.:</p>
-    <!-- 1st activity en chrome no se me hace el cambio en firefox si-->
+    }
+  </style>
+</head>
 
-         
-    <img srcset="cantera2.jpg 320w,
-    cante.jpg 480w,
-    canteras.jpg 800w"
-    sizes="(max-width: 440px) 440px,
+<body>
+  <h1>Activity 9: Responsive images</h1>
+  <p>1. Using &lt;img srcset...&gt; make a responsive image that changes depending on the size of the page, up to 3
+    images.:</p>
+  <!-- 1st activity en chrome no se me hace el cambio en firefox si-->
+
+
+  <img srcset="cantera2.jpg 320w,
+    cante.JPG 480w,
+    canteras.jpg 800w" sizes="(max-width: 440px) 320px,
            (max-width: 480px) 440px,
-           800px"
-    src="canteras.jpg">
+           800px" src="canteras.jpg">
 
 
-     <p>2. Using &lt;picture&gt; stuff make a responsive image that changes depending on the size of the page, up to 3 images.:</p>
-    <!-- 2nd activity here-->
-    <picture>
-      <source media="(max-width: 799px)" srcset="ari2.jpg">
-      <source media="(min-width: 800px)" srcset="ari.jpg">
-      <img src="ari.jpg" alt="Chris standing up holding his daughter Elva">
-    </picture>
+  <p>2. Using &lt;picture&gt; stuff make a responsive image that changes depending on the size of the page, up to 3
+    images.:</p>
+  <!-- 2nd activity here-->
+  <picture>
+    <source media="(max-width: 440px)" srcset="arisol.jpg">
+    <source media="(max-width: 799px)" srcset="ari2.jpg">
+    <source media="(min-width: 800px)" srcset="ari.jpg">
+    <img src="arisol.JPG">
+  </picture>
 
-    <p><a href="https://developer.mozilla.org/es/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images">Need help?</a><a href="https://www.youtube.com/watch?v=7UMNQrUF2ps">Video</a></p>
-  </body>
+  <p><a href="https://developer.mozilla.org/es/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images">Need
+      help?</a><a href="https://www.youtube.com/watch?v=7UMNQrUF2ps">Video</a></p>
+</body>
+
 </html>
