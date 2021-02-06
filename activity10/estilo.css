@@ -1,0 +1,88 @@
+.container{
+    display: flex;
+    flex-flow: column wrap;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 17px;
+  }
+ 
+ 
+ 
+  div{ font-family: "Times New Roman", Times, serif;
+    font-size: 15px;
+  
+  }
+  
+  p{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    
+  }
+  .continic{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+text-align: center;}
+  
+  #cabezera{
+    display: block;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    text-align: center;
+    
+  }
+  h1{
+    font-family: "Times New Roman", Times, serif;
+  }
+  h2{
+    font-family: "Times New Roman", Times, serif;
+  }
+  h3{
+    font-family: "Times New Roman", Times, serif;
+    
+  }
+  h4{
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+  }
+ 
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+    text-align: center;
+     
+  }
+  .footer {
+    font-family: "Times New Roman", Times, serif;
+    padding: 3px;
+    font-family:bold;
+    font-size: 20px;
+   
+  }
+  .texto{
+    text-align: center;
+  
+  }
+  
+  
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+
+  
+  
+  
+  
+  
